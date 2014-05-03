@@ -1,0 +1,32 @@
+{
+  "name": "scrapey",
+  "version": "0.0.1",
+  "description": "Page scraping fun",
+  "main": "index.js",
+  "dependencies": {
+    "lab": "3.1.0",
+    "request": "2.34.0",
+    "async": "0.8.0",
+    "cheerio": "0.15.0",
+    "hoek": "2.1.0"
+  },
+  "devDependencies": {
+    "hapi": "4.1.0"
+  },
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab -t 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjihrig/scrapey.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Colin J. Ihrig <cjihrig@gmail.com> (http://www.cjihrig.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjihrig/scrapey/issues"
+  },
+  "homepage": "https://github.com/cjihrig/scrapey"
+}
