@@ -34,7 +34,7 @@ describe("Scrapey", function() {
 
       expect(error).to.not.exist;
       expect(result && result.dom).to.exist;
-      expect(result.dom("head").text().trim()).to.equal("foo");
+      expect(result.dom("title").text()).to.equal("foo");
       done();
     });
   });
