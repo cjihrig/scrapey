@@ -1,5 +1,7 @@
 # Scrapey
 
+**DEPRECATED**
+
 Web page scraping utility written in Node.js. Scrapey acts as a glue layer between [`request`](https://github.com/mikeal/request), [`cheerio`](https://github.com/cheeriojs/cheerio), [`async`](https://github.com/caolan/async), and other modules useful in page scraping.
 
 Scrapey is still in **very** early stage development, but the underlying modules are stable.
